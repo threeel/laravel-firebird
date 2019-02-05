@@ -1,5 +1,5 @@
 {
-    "name": "sim_1984/laravel-firebird",
+    "name": "threeel/laravel-firebird",
     "description": "A Firebird database package for the Laravel Framework",
     "license": "MIT",
     "version": "1.0.2",
@@ -11,16 +11,20 @@
         {
             "name": "Simonov Denis",
             "email": "sim-mail@list.ru"
+        },
+        {
+            "name": "Lefteris Kameris",
+            "email": "lefteris.k@3elalliance.com"
         }
     ],
     "prefer-stable": true,
     "minimum-stability": "dev",
     "require": {
-        "php": ">=7.0.0",
-        "illuminate/support": "5.5.*",
-        "illuminate/container": "5.5.*",
-        "illuminate/database": "5.5.*",
-        "illuminate/events": "5.5.*"
+        "php": ">=7.1.0",
+        "illuminate/support": "5.7.*",
+        "illuminate/container": "5.7.*",
+        "illuminate/database": "5.7.*",
+        "illuminate/events": "5.7.*"
     },
     "autoload":{
         "psr-0": {
