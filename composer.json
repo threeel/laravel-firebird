@@ -26,6 +26,13 @@
         "illuminate/database": "5.7.*",
         "illuminate/events": "5.7.*"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Firebird\\FirebirdServiceProvider"
+            ]
+        }
+    },
     "autoload":{
         "psr-0": {
             "Firebird\\": "src/"
